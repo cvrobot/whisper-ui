@@ -29,4 +29,4 @@ EXPOSE 8501
 VOLUME /data
 
 # Run the app
-CMD streamlit run /app/01_🏠_Home.py
+CMD streamlit run /app/home.py
