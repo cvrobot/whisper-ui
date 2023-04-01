@@ -30,4 +30,4 @@ VOLUME /data
 
 # Run the app
 ENTRYPOINT [ "streamlit", "run" ]
-CMD [ "home.py" ]
+CMD [ "home.py",  "--logger.level", "debug"]
