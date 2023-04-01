@@ -29,4 +29,5 @@ EXPOSE 8501
 VOLUME /data
 
 # Run the app
-CMD streamlit run /app/home.py
+ENTRYPOINT [ "streamlit", "run" ]
+CMD [ "home.py" ]
